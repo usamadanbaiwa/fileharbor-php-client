@@ -12,7 +12,7 @@ The PHP client wraps FileHarbor's account file-management API. It can connect to
 | [Runnable example](../examples/README.md) | Upload from a local checkout |
 | [Contributing](../CONTRIBUTING.md) | Development setup, checks, and pull requests |
 | [Security](../SECURITY.md) | Reporting vulnerabilities and protecting credentials |
-| [Changelog](../CHANGELOG.md) | Changes awaiting release |
+| [Changelog](../CHANGELOG.md) | Changes and release |
 
 
 Start with getting started, then use the API reference while implementing your integration. All PHP snippets assume Composer's autoloader is loaded. Unless a snippet constructs a client, `$client` refers to an already configured `FileHarbor\Client\FileHarborClient`.
