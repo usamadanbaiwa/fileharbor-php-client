@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title description">
+  <title id="title">FileHarbor PHP Client — by Usama Danbaiwa</title>
+  <desc id="description">Your files. One PHP client. Upload, list, create directories, and delete through the FileHarbor API using Symfony HttpClient and Mime.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0b1828"/>
+      <stop offset="1" stop-color="#173c49"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8ccece" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="440" rx="22" fill="url(#background)"/>
+  <rect width="1280" height="440" rx="22" fill="url(#grid)"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="56" y="42" width="136" height="30" rx="15" fill="#292e50" stroke="#686c9f"/>
+    <text x="124" y="62" text-anchor="middle" fill="#d3d4ff" font-size="12" font-weight="700" letter-spacing="2">PHP CLIENT</text>
+    <text x="56" y="153" fill="#ffffff" font-size="68" font-weight="750" letter-spacing="-2">FileHarbor</text>
+    <text x="59" y="204" fill="#a2f0d8" font-size="29" font-weight="600">Your files. One PHP client.</text>
+    <text x="59" y="253" fill="#c3d2dd" font-size="20">Upload, list, create folders, and delete.</text>
+    <text x="59" y="285" fill="#c3d2dd" font-size="20">Connect your application to your own server.</text>
+    <g font-size="12" font-weight="700" letter-spacing="1">
+      <rect x="59" y="318" width="94" height="29" rx="7" fill="#21394c"/>
+      <text x="106" y="337" text-anchor="middle" fill="#d0d6ff">PHP 8.3+</text>
+      <rect x="164" y="318" width="191" height="29" rx="7" fill="#21394c"/>
+      <text x="259" y="337" text-anchor="middle" fill="#a2f0d8">SYMFONY COMPONENTS</text>
+      <rect x="366" y="318" width="124" height="29" rx="7" fill="#21394c"/>
+      <text x="428" y="337" text-anchor="middle" fill="#d1e1e9">SELF-HOSTED</text>
+    </g>
+    <text x="59" y="398" fill="#b6ccd7" font-size="18">by <tspan fill="#ffffff" font-weight="650">Usama Danbaiwa</tspan></text>
+    <rect x="762" y="53" width="462" height="300" rx="14" fill="#0b1b2b" stroke="#365566"/>
+    <path d="M762 97H1224" stroke="#365566"/>
+    <circle cx="787" cy="75" r="4" fill="#70d9bf"/>
+    <text x="803" y="80" fill="#b4cad6" font-size="13">YOUR PHP BACKEND</text>
+    <g font-family="Consolas, monospace" font-size="19">
+      <text x="790" y="142" fill="#d3d4ff">$client-&gt;createDirectory(</text>
+      <text x="816" y="172" fill="#a2f0d8">'assets'</text>
+      <text x="790" y="202" fill="#d3d4ff">);</text>
+      <text x="790" y="249" fill="#d3d4ff">$client-&gt;upload(</text>
+      <text x="816" y="279" fill="#a2f0d8">'photo.png',</text>
+      <text x="816" y="309" fill="#c3d2dd">folder: <tspan fill="#a2f0d8">'assets'</tspan></text>
+      <text x="790" y="339" fill="#d3d4ff">);</text>
+    </g>
+    <text x="993" y="394" text-anchor="middle" fill="#8fb3c1" font-size="15">Your server. Your storage. Your control.</text>
+  </g>
+</svg>

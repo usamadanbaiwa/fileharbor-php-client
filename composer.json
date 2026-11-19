@@ -1,0 +1,83 @@
+{
+    "$schema": "https://getcomposer.org/schema.json",
+    "name": "fileharbor/client",
+    "description": "PHP SDK for the FileHarbor API: stream file uploads, browse paginated listings, manage directories, and delete files with Symfony HttpClient and Mime.",
+    "type": "library",
+    "keywords": [
+        "fileharbor",
+        "php",
+        "sdk",
+        "api-client",
+        "file-management",
+        "file-upload",
+        "multipart",
+        "storage",
+        "self-hosted",
+        "symfony",
+        "http-client"
+    ],
+    "homepage": "https://github.com/usamadanbaiwa/fileharbor-php-client",
+    "readme": "README.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Usama Lawan",
+            "homepage": "https://github.com/usamadanbaiwa",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/usamadanbaiwa/fileharbor-php-client",
+        "issues": "https://github.com/usamadanbaiwa/fileharbor-php-client/issues",
+        "docs": "https://github.com/usamadanbaiwa/fileharbor-php-client#documentation",
+        "security": "https://github.com/usamadanbaiwa/fileharbor-php-client/security/policy"
+    },
+    "require": {
+        "php": ">=8.3",
+        "ext-json": "*",
+        "symfony/http-client": "^7.4 || ^8.0",
+        "symfony/http-client-contracts": "^3.6",
+        "symfony/mime": "^7.4 || ^8.0",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "suggest": {
+        "ext-curl": "Enables Symfony's cURL transport for better HTTP performance.",
+        "ext-fileinfo": "Enables file-content MIME detection when Symfony Mime prepares uploads."
+    },
+    "autoload": {
+        "psr-4": {
+            "FileHarbor\\Client\\": "src/"
+        }
+    },
+    "scripts": {
+        "check": [
+            "@composer validate --strict",
+            "@lint"
+        ],
+        "lint": "@php tools/lint.php"
+    },
+    "scripts-descriptions": {
+        "check": "Validate Composer metadata and check PHP syntax.",
+        "lint": "Check PHP syntax in source, examples, and tools."
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "archive": {
+        "name": "fileharbor-php-client",
+        "exclude": [
+            "/.git",
+            "/.github",
+            "/.gitattributes",
+            "/.gitignore",
+            "/.env",
+            "/.env.*",
+            "!/.env.example",
+            "/composer.lock",
+            "/dist",
+            "/tests",
+            "/tools",
+            "/vendor"
+        ]
+    }
+}

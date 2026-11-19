@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
+  <title id="title">From your PHP application to FileHarbor</title>
+  <desc id="description">Your PHP application supplies a server base URL, account ID, and key. The client builds the API route and sends HTTPS management requests. The remote server validates access, manages storage, and returns metadata. File delivery is handled by the remote server.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0L8 4L0 8Z" fill="#70d9bf"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="360" rx="18" fill="#0e1d2c"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="40" y="45" fill="#a2f0d8" font-size="15" font-weight="700" letter-spacing="1.5">YOUR APPLICATION CALLS. FILEHARBOR HANDLES THE FILES.</text>
+    <g fill="#162d3d" stroke="#365566">
+      <rect x="40" y="81" width="340" height="160" rx="12"/>
+      <rect x="470" y="81" width="340" height="160" rx="12"/>
+      <rect x="900" y="81" width="340" height="160" rx="12"/>
+    </g>
+    <g fill="#8faebb" font-size="12" font-weight="700" letter-spacing="1.5">
+      <text x="64" y="112">01 / PHP BACKEND</text>
+      <text x="494" y="112">02 / REMOTE SERVER</text>
+      <text x="924" y="112">03 / YOUR STORAGE</text>
+    </g>
+    <g fill="#ffffff" font-size="25" font-weight="650">
+      <text x="64" y="151">FileHarbor PHP client</text>
+      <text x="494" y="151">FileHarbor API</text>
+      <text x="924" y="151">Files and directories</text>
+    </g>
+    <g fill="#bdd0dc" font-size="17">
+      <text x="64" y="184">Base URL + account ID + key</text>
+      <text x="64" y="214">Builds the account API path</text>
+      <text x="494" y="184">Checks access and file content</text>
+      <text x="494" y="214">Upload · list · create · delete</text>
+      <text x="924" y="184">Stored on your hosting</text>
+      <text x="924" y="214">Managed by the remote server</text>
+    </g>
+    <g fill="none" stroke="#70d9bf" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M391 168H456"/>
+      <path d="M821 168H886"/>
+      <path d="M640 252V286H212V252"/>
+    </g>
+    <text x="424" y="151" text-anchor="middle" fill="#a2f0d8" font-size="11">HTTPS</text>
+    <text x="854" y="151" text-anchor="middle" fill="#a2f0d8" font-size="11">MANAGE</text>
+    <rect x="299" y="273" width="250" height="26" rx="13" fill="#0e1d2c"/>
+    <text x="424" y="291" text-anchor="middle" fill="#a2f0d8" font-size="14">JSON metadata or an API error</text>
+    <text x="40" y="333" fill="#89a9b7" font-size="14">The SDK manages files. The remote server handles file delivery.</text>
+    <text x="1240" y="333" text-anchor="end" fill="#89a9b7" font-size="14">by Usama Danbaiwa</text>
+  </g>
+</svg>

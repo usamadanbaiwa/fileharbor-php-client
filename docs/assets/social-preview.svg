@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title description">
+  <title id="title">FileHarbor PHP Client — by Usama Danbaiwa</title>
+  <desc id="description">A PHP SDK for your self-hosted FileHarbor server. Upload, list, create folders, and delete with Symfony HttpClient and Mime.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0b1828"/>
+      <stop offset="1" stop-color="#173c49"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#49b99e" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#49b99e" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#8ccece" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="640" fill="url(#background)"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <ellipse cx="1070" cy="330" rx="360" ry="350" fill="url(#glow)"/>
+  <path d="M64 598H1216" stroke="#365566" stroke-opacity=".65"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="64" y="62" width="140" height="32" rx="16" fill="#292e50" stroke="#686c9f"/>
+    <text x="134" y="83" text-anchor="middle" fill="#d3d4ff" font-size="12" font-weight="700" letter-spacing="2">PHP CLIENT</text>
+    <text x="1216" y="83" text-anchor="end" fill="#9ab8c5" font-size="13" letter-spacing="2">YOUR SERVER. YOUR STORAGE.</text>
+    <text x="64" y="235" fill="#ffffff" font-size="84" font-weight="750" letter-spacing="-3">FileHarbor</text>
+    <text x="68" y="297" fill="#d3d4ff" font-size="47" font-weight="600" letter-spacing="-1">PHP Client</text>
+    <text x="68" y="360" fill="#a2f0d8" font-size="29" font-weight="600">Your files. One PHP client.</text>
+    <text x="68" y="409" fill="#c3d2dd" font-size="20">Upload, list, create folders, and delete.</text>
+    <text x="68" y="441" fill="#c3d2dd" font-size="20">Connect your app to your own server.</text>
+    <g font-size="12" font-weight="700" letter-spacing="1">
+      <rect x="68" y="471" width="94" height="30" rx="7" fill="#21394c"/>
+      <text x="115" y="491" text-anchor="middle" fill="#d0d6ff">PHP 8.3+</text>
+      <rect x="173" y="471" width="191" height="30" rx="7" fill="#21394c"/>
+      <text x="268" y="491" text-anchor="middle" fill="#a2f0d8">SYMFONY COMPONENTS</text>
+      <rect x="375" y="471" width="124" height="30" rx="7" fill="#21394c"/>
+      <text x="437" y="491" text-anchor="middle" fill="#d1e1e9">SELF-HOSTED</text>
+    </g>
+    <text x="68" y="563" fill="#b6ccd7" font-size="21">by <tspan fill="#ffffff" font-weight="650">Usama Danbaiwa</tspan></text>
+    <rect x="744" y="158" width="472" height="332" rx="16" fill="#0b1b2b" stroke="#426576"/>
+    <path d="M744 207H1216" stroke="#365566"/>
+    <circle cx="772" cy="183" r="5" fill="#70d9bf"/>
+    <text x="790" y="189" fill="#b4cad6" font-size="14" letter-spacing=".6">YOUR PHP BACKEND</text>
+    <g font-family="Consolas, monospace" font-size="21">
+      <text x="776" y="254" fill="#d3d4ff">$client-&gt;createDirectory(</text>
+      <text x="802" y="287" fill="#a2f0d8">'assets'</text>
+      <text x="776" y="320" fill="#d3d4ff">);</text>
+      <text x="776" y="368" fill="#d3d4ff">$client-&gt;upload(</text>
+      <text x="802" y="401" fill="#a2f0d8">'photo.png',</text>
+      <text x="802" y="434" fill="#c3d2dd">folder: <tspan fill="#a2f0d8">'assets'</tspan></text>
+      <text x="776" y="467" fill="#d3d4ff">);</text>
+    </g>
+    <text x="980" y="533" text-anchor="middle" fill="#9bbdc9" font-size="16">A small SDK. A simpler integration.</text>
+    <text x="68" y="624" fill="#88a8b8" font-size="13">github.com/usamadanbaiwa/fileharbor-php-client</text>
+    <text x="1216" y="624" text-anchor="end" fill="#88a8b8" font-size="13">fileharbor/client</text>
+  </g>
+</svg>
